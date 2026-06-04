@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Deedogland — โรงแรมสุนัขพรีเมียม | ฝากเลี้ยง เดย์แคร์ สปา</title>
+  <meta name="description"
+    content="Deedogland โรงแรมสุนัขระดับพรีเมียม บริการฝากเลี้ยงค้างคืน เดย์แคร์ สปาอาบน้ำตัดขน พร้อมทีมผู้เชี่ยวชาญดูแลตลอด 24 ชั่วโมง">
+  <meta property="og:title" content="Deedogland — โรงแรมสุนัขพรีเมียม">
+  <meta property="og:description" content="ที่พักระดับพรีเมียมสำหรับเพื่อนแท้สี่ขาของคุณ">
+  <meta property="og:type" content="website">
+  <link rel="icon"
+    href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🐾</text></svg>">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/components.css">
+
+  <!-- JSON-LD LocalBusiness Schema -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LodgingBusiness",
+    "name": "Deedogland — โรงแรมสุนัขพรีเมียม",
+    "description": "โรงแรมสุนัขระดับพรีเมียม บริการฝากเลี้ยงค้างคืน เดย์แคร์ สปาอาบน้ำตัดขน ดูแลตลอด 24 ชม.",
+    "url": "https://deedogland.com",
+    "image": "assets/images/hero.png",
+    "telephone": "+66-XX-XXX-XXXX",
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+        "opens": "07:00",
+        "closes": "20:00"
+      }
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.9",
+      "reviewCount": "328"
+    }
+  }
+  </script>
+</head>
+
+<body>
+
+  <!-- ═══ Loading Screen ═══ -->
+  <div class="loader" id="loader">
+    <div class="loader-paw">🐾</div>
+    <div class="loader-bar">
+      <div class="loader-bar-fill"></div>
+    </div>
+  </div>
+
+  <!-- ═══ Navbar ═══ -->
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <a href="#" class="navbar-brand" id="nav-brand">
+        <span class="paw-icon">🐾</span>
+        Deedogland
+      </a>
+      <div class="navbar-links" id="nav-links">
+        <a href="#home" class="active">หน้าแรก</a>
+        <a href="#services">บริการ</a>
+        <a href="#why">ทำไมเลือกเรา</a>
+        <a href="#reviews">รีวิว</a>
+        <a href="#gallery">แกลเลอรี</a>
+        <a href="#contact">ติดต่อ</a>
+      </div>
+      <div class="navbar-cta">
+        <a href="pages/booking.html" class="btn btn-primary btn-sm">จองเลย 🐕</a>
+      </div>
+      <div class="menu-toggle" id="menu-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ═══ Hero Section ═══ -->
+  <section class="hero" id="home">
+    <div class="hero-bg">
+      <img src="assets/images/hero.png" alt="สุนัขพักผ่อนอย่างมีความสุขในห้องพักหรูของ Deedogland" loading="eager">
+    </div>
+    <div class="hero-overlay"></div>
+
+    <!-- Floating elements -->
+    <div class="hero-float hero-float-1">🐕</div>
+    <div class="hero-float hero-float-2">🦴</div>
+    <div class="hero-float hero-float-3">🐾</div>
+
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-badge">
+          ⭐ โรงแรมสุนัขพรีเมียม
+        </div>
+        <h1>
+          ที่พักระดับพรีเมียม<br>
+          สำหรับ<span class="highlight">เพื่อนแท้สี่ขา</span><br>
+          ของคุณ
+        </h1>
+        <p>
+          บริการฝากเลี้ยงสุนัขครบวงจร ด้วยทีมผู้เชี่ยวชาญที่รักสัตว์อย่างแท้จริง
+          พร้อมสิ่งอำนวยความสะดวกระดับพรีเมียม ดูแลเสมือนครอบครัว
+        </p>
+        <div class="hero-buttons">
+          <a href="pages/booking.html" class="btn btn-primary btn-lg">จองที่พักเลย 🐾</a>
+          <a href="#services" class="btn btn-ghost btn-lg">ดูบริการทั้งหมด</a>
+        </div>
+        <div class="hero-stats">
+          <div class="hero-stat">
+            <div class="number" data-count="2500">0</div>
+            <div class="label">สุนัขที่ไว้ใจเรา</div>
+          </div>
+          <div class="hero-stat">
+            <div class="number" data-count="4.9">0</div>
+            <div class="label">⭐ คะแนนรีวิว</div>
+          </div>
+          <div class="hero-stat">
+            <div class="number" data-count="5">0</div>
+            <div class="label">ปีที่ให้บริการ</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ Quick Info Bar ═══ -->
+  <section class="info-bar">
+    <div class="container">
+      <div class="info-item">
+        <span class="icon">🕐</span>
+        <div>
+          <div class="info-label">เวลาทำการ</div>
+          <div class="info-value">07:00 — 20:00 ทุกวัน</div>
+        </div>
+      </div>
+      <div class="info-item">
+        <span class="icon">📍</span>
+        <div>
+          <div class="info-label">สถานที่ตั้ง</div>
+          <div class="info-value">กรุงเทพมหานคร</div>
+        </div>
+      </div>
+      <div class="info-item">
+        <span class="icon">📞</span>
+        <div>
+          <div class="info-label">โทรจอง</div>
+          <div class="info-value">0XX-XXX-XXXX</div>
+        </div>
+      </div>
+      <div class="info-item">
+        <span class="icon">💬</span>
+        <div>
+          <div class="info-label">LINE Official</div>
+          <div class="info-value">@deedogland</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ Services Section ═══ -->
+  <section class="section services-section" id="services">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-badge">🐾 บริการของเรา</span>
+        <h2>เลือกห้องพักและบริการ<br><span class="gradient-text">ที่เหมาะกับน้องหมาของคุณ</span></h2>
+        <p class="subtitle">เราออกแบบทุกห้องพักด้วยความรักและใส่ใจ เพื่อให้น้องหมาของคุณสบายที่สุด</p>
+      </div>
+
+      <div class="services-grid stagger">
+        <!-- Card 1: ห้องไม่ติดหน้าต่าง -->
+        <div class="service-card reveal">
+          <div class="service-card-image">
+            <img src="assets/images/room-basic.png" alt="ห้องพักมาตรฐานสำหรับสุนัข ไม่ติดหน้าต่าง">
+            <span class="service-card-badge">ยอดนิยม</span>
+          </div>
+          <div class="service-card-body">
+            <div class="service-card-emoji">🏠</div>
+            <h3>ห้องไม่ติดหน้าต่าง</h3>
+            <p>ห้องพักอบอุ่นเงียบสงบ เหมาะสำหรับน้องหมาที่ชอบความเป็นส่วนตัว พร้อมเครื่องปรับอากาศและไฟอ่อนโยน</p>
+            <div class="service-card-price">
+              <span class="price">฿500</span>
+              <span class="unit">/ คืน</span>
+            </div>
+            <ul class="service-card-features">
+              <li><span class="check">✓</span> เครื่องปรับอากาศ 24 ชม.</li>
+              <li><span class="check">✓</span> เบาะนอนนุ่มสบาย</li>
+              <li><span class="check">✓</span> ชามน้ำ-อาหารส่วนตัว</li>
+              <li><span class="check">✓</span> กล้องวงจรปิดตลอดคืน</li>
+            </ul>
+            <a href="pages/booking.html" class="btn btn-primary" style="width:100%;">จองห้องนี้</a>
+          </div>
+        </div>
+
+        <!-- Card 2: ห้องติดหน้าต่าง -->
+        <div class="service-card reveal">
+          <div class="service-card-image">
+            <img src="assets/images/room-window.png" alt="ห้องพักพรีเมียมติดหน้าต่าง แสงธรรมชาติสวยงาม">
+            <span class="service-card-badge">แนะนำ ⭐</span>
+          </div>
+          <div class="service-card-body">
+            <div class="service-card-emoji">🪟</div>
+            <h3>ห้องติดหน้าต่าง</h3>
+            <p>ห้องพักกว้างขวางติดหน้าต่างวิวสวน รับแสงธรรมชาติ เพิ่มความผ่อนคลายให้น้องหมาตลอดวัน</p>
+            <div class="service-card-price">
+              <span class="price">฿800</span>
+              <span class="unit">/ คืน</span>
+            </div>
+            <ul class="service-card-features">
+              <li><span class="check">✓</span> หน้าต่างวิวสวนธรรมชาติ</li>
+              <li><span class="check">✓</span> ห้องกว้าง 2 เท่า</li>
+              <li><span class="check">✓</span> ของเล่นและเบาะพรีเมียม</li>
+              <li><span class="check">✓</span> ผู้ดูแลส่วนตัว</li>
+            </ul>
+            <a href="pages/booking.html" class="btn btn-primary" style="width:100%;">จองห้องนี้</a>
+          </div>
+        </div>
+
+        <!-- Card 3: Day Care -->
+        <div class="service-card reveal">
+          <div class="service-card-image">
+            <img src="assets/images/daycare.png" alt="บริการเดย์แคร์สุนัข สนุกกับเพื่อน">
+          </div>
+          <div class="service-card-body">
+            <div class="service-card-emoji">🌅</div>
+            <h3>Day Care เดย์แคร์</h3>
+            <p>ฝากเลี้ยงกลางวัน ให้น้องหมาได้วิ่งเล่นกับเพื่อนๆ ภายใต้การดูแลของทีมงานผู้เชี่ยวชาญ</p>
+            <div class="service-card-price">
+              <span class="price">฿350</span>
+              <span class="unit">/ วัน</span>
+            </div>
+            <ul class="service-card-features">
+              <li><span class="check">✓</span> สนามเด็กเล่นในร่ม-กลางแจ้ง</li>
+              <li><span class="check">✓</span> แบ่งกลุ่มตามขนาดตัว</li>
+              <li><span class="check">✓</span> กิจกรรมเสริมทักษะ</li>
+              <li><span class="check">✓</span> อัปเดตภาพตลอดวัน</li>
+            </ul>
+            <a href="pages/booking.html" class="btn btn-outline" style="width:100%;">จองเดย์แคร์</a>
+          </div>
+        </div>
+
+        <!-- Card 4: Spa & Grooming -->
+        <div class="service-card reveal">
+          <div class="service-card-image">
+            <img src="assets/images/spa.png" alt="บริการสปาอาบน้ำตัดขนสุนัข">
+          </div>
+          <div class="service-card-body">
+            <div class="service-card-emoji">🛁</div>
+            <h3>Spa & Grooming</h3>
+            <p>บริการอาบน้ำ ตัดขน ตัดเล็บ ทำสปาครบวงจร ด้วยผลิตภัณฑ์คุณภาพอ่อนโยนต่อผิวน้องหมา</p>
+            <div class="service-card-price">
+              <span class="price">฿450</span>
+              <span class="unit">/ ครั้ง</span>
+            </div>
+            <ul class="service-card-features">
+              <li><span class="check">✓</span> อาบน้ำ + เป่าขน</li>
+              <li><span class="check">✓</span> ตัดขนตามสไตล์</li>
+              <li><span class="check">✓</span> ตัดเล็บ + ทำความสะอาดหู</li>
+              <li><span class="check">✓</span> แชมพูออร์แกนิค</li>
+            </ul>
+            <a href="pages/booking.html" class="btn btn-outline" style="width:100%;">จองสปา</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ Why Choose Us ═══ -->
+  <section class="section why-section" id="why">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-badge"
+          style="color: var(--color-accent); border-color: rgba(232,184,109,0.3); background: rgba(232,184,109,0.1);">💎
+          ทำไมเลือกเรา</span>
+        <h2>Deedogland <span class="gradient-text">แตกต่างอย่างไร?</span></h2>
+        <p class="subtitle">เราให้มากกว่าที่พัก — เราให้ความรักและการดูแลเสมือนครอบครัว</p>
+      </div>
+
+      <div class="why-grid stagger">
+        <div class="why-card reveal">
+          <span class="icon">👨‍⚕️</span>
+          <h3>ทีมผู้เชี่ยวชาญ</h3>
+          <p>ทีมงานผ่านการอบรมเฉพาะทาง มีใบรับรองด้านการดูแลสัตว์เลี้ยง พร้อมสัตวแพทย์ประจำ</p>
+        </div>
+        <div class="why-card reveal">
+          <span class="icon">📹</span>
+          <h3>กล้องวงจรปิด 24 ชม.</h3>
+          <p>เจ้าของสามารถเช็คน้องหมาผ่านกล้องเว็บแคมได้ตลอดเวลา ให้ความอุ่นใจสูงสุด</p>
+        </div>
+        <div class="why-card reveal">
+          <span class="icon">🏥</span>
+          <h3>สัตวแพทย์พร้อมดูแล</h3>
+          <p>มีสัตวแพทย์ประจำโรงแรม พร้อมรับมือสถานการณ์ฉุกเฉินและดูแลสุขภาพน้องหมาทุกตัว</p>
+        </div>
+        <div class="why-card reveal">
+          <span class="icon">🌿</span>
+          <h3>สิ่งแวดล้อมระดับพรีเมียม</h3>
+          <p>ห้องพักกว้างขวาง สะอาด มีเครื่องปรับอากาศ สนามเด็กเล่น และสวนสีเขียวรอบโรงแรม</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ Testimonials ═══ -->
+  <section class="section testimonials-section" id="reviews">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-badge">💬 รีวิวจากลูกค้า</span>
+        <h2>เจ้าของน้องหมา<span class="gradient-text">พูดถึงเรา</span></h2>
+        <p class="subtitle">ความไว้วางใจจากเจ้าของสุนัขกว่า 2,500 ตัว ด้วยคะแนนรีวิว 4.9/5</p>
+      </div>
+
+      <div class="testimonials-carousel reveal" id="testimonials-carousel">
+        <div class="testimonials-track" id="testimonials-track">
+          <!-- Testimonial 1 -->
+          <div class="testimonial-card">
+            <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+            <p class="testimonial-text">
+              "ครั้งแรกที่ฝากน้องโมจิ ตอนแรกก็กังวลมาก แต่พอเห็นภาพอัปเดตจากกล้องกับทีมงานที่ส่งมาให้ ก็สบายใจเลยค่ะ
+              น้องโมจิกลับมาบ้านอารมณ์ดีมาก ไม่เครียดเลย!"
+            </p>
+            <div class="testimonial-author">
+              <div class="testimonial-avatar">ก</div>
+              <div>
+                <div class="testimonial-name">คุณกัญญา</div>
+                <div class="testimonial-pet">เจ้าของน้องโมจิ (Pomeranian)</div>
+              </div>
+            </div>
+          </div>
+          <!-- Testimonial 2 -->
+          <div class="testimonial-card">
+            <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+            <p class="testimonial-text">
+              "ฝากน้องบรูโน่มาหลายครั้งแล้ว ประทับใจทุกครั้ง ทีมงานดูแลดีมาก อาหารสะอาด ห้องพักกว้าง
+              น้องบรูโน่ชอบมาเล่นกับเพื่อนๆ ทุกครั้งเลยครับ ขอบคุณ Deedogland!"
+            </p>
+            <div class="testimonial-author">
+              <div class="testimonial-avatar">ว</div>
+              <div>
+                <div class="testimonial-name">คุณวิทยา</div>
+                <div class="testimonial-pet">เจ้าของน้องบรูโน่ (Golden Retriever)</div>
+              </div>
+            </div>
+          </div>
+          <!-- Testimonial 3 -->
+          <div class="testimonial-card">
+            <div class="testimonial-stars">⭐⭐⭐⭐⭐</div>
+            <p class="testimonial-text">
+              "บริการสปาดีมากค่ะ น้องมิลค์กลับมาขนนุ่มฟู หอมสะอาด ช่างตัดขนฝีมือดี ตัดออกมาน่ารักมาก!
+              ราคาคุ้มค่ามากเมื่อเทียบกับที่อื่น จะกลับมาใช้บริการอีกแน่นอนค่ะ"
+            </p>
+            <div class="testimonial-author">
+              <div class="testimonial-avatar">ส</div>
+              <div>
+                <div class="testimonial-name">คุณสมหญิง</div>
+                <div class="testimonial-pet">เจ้าของน้องมิลค์ (Shih Tzu)</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-dots" id="carousel-dots">
+          <button class="carousel-dot active" data-index="0" aria-label="รีวิวที่ 1"></button>
+          <button class="carousel-dot" data-index="1" aria-label="รีวิวที่ 2"></button>
+          <button class="carousel-dot" data-index="2" aria-label="รีวิวที่ 3"></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ Gallery Preview ═══ -->
+  <section class="section gallery-preview" id="gallery">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-badge">📸 แกลเลอรี</span>
+        <h2>บรรยากาศใน <span class="gradient-text">Deedogland</span></h2>
+        <p class="subtitle">ภาพบรรยากาศจริงจากโรงแรมของเรา</p>
+      </div>
+
+      <div class="gallery-grid stagger">
+        <div class="gallery-item reveal">
+          <img src="assets/images/hero.png" alt="น้องหมาพักผ่อนในห้องพักหรู">
+          <div class="gallery-item-overlay"><span>ห้องพักพรีเมียม</span></div>
+        </div>
+        <div class="gallery-item reveal">
+          <img src="assets/images/room-basic.png" alt="ห้องพักมาตรฐาน">
+          <div class="gallery-item-overlay"><span>ห้องไม่ติดหน้าต่าง</span></div>
+        </div>
+        <div class="gallery-item reveal">
+          <img src="assets/images/room-window.png" alt="ห้องพักติดหน้าต่าง">
+          <div class="gallery-item-overlay"><span>ห้องติดหน้าต่าง</span></div>
+        </div>
+        <div class="gallery-item reveal">
+          <img src="assets/images/daycare.png" alt="บรรยากาศเดย์แคร์">
+          <div class="gallery-item-overlay"><span>เดย์แคร์</span></div>
+        </div>
+        <div class="gallery-item reveal">
+          <img src="assets/images/spa.png" alt="บริการสปาอาบน้ำ">
+          <div class="gallery-item-overlay"><span>Spa & Grooming</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ CTA Banner ═══ -->
+  <section class="cta-banner" id="booking">
+    <div class="container reveal-scale">
+      <h2>พร้อมให้น้องหมามา<br>สนุกกับเราแล้วหรือยัง? 🐕</h2>
+      <p>จองที่พักวันนี้ รับส่วนลดพิเศษสำหรับลูกค้าใหม่!</p>
+      <a href="pages/booking.html" class="btn btn-lg">จองที่พักเลย 🐾</a>
+    </div>
+  </section>
+
+  <!-- ═══ Contact Preview ═══ -->
+  <section class="section" id="contact" style="background: var(--bg-cream);">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-badge">📍 ติดต่อเรา</span>
+        <h2>มาหาเราได้ <span class="gradient-text">ทุกวัน</span></h2>
+      </div>
+      <div
+        style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: var(--space-xl); max-width: 900px; margin: 0 auto;">
+        <div class="card-glass reveal" style="padding: var(--space-2xl); text-align: center;">
+          <div style="font-size: 2rem; margin-bottom: var(--space-md);">📍</div>
+          <h4>ที่อยู่</h4>
+          <p style="font-size: var(--fs-small); margin-top: var(--space-sm);">123 ถนนสุขุมวิท<br>กรุงเทพมหานคร 10110</p>
+        </div>
+        <div class="card-glass reveal" style="padding: var(--space-2xl); text-align: center;">
+          <div style="font-size: 2rem; margin-bottom: var(--space-md);">📞</div>
+          <h4>โทรศัพท์</h4>
+          <p style="font-size: var(--fs-small); margin-top: var(--space-sm);">0XX-XXX-XXXX<br>ทุกวัน 07:00 - 20:00</p>
+        </div>
+        <div class="card-glass reveal" style="padding: var(--space-2xl); text-align: center;">
+          <div style="font-size: 2rem; margin-bottom: var(--space-md);">💬</div>
+          <h4>LINE / Social</h4>
+          <p style="font-size: var(--fs-small); margin-top: var(--space-sm);">LINE: @deedogland<br>IG: @deedogland</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══ Footer ═══ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-brand">🐾 Deedogland</div>
+          <p class="footer-desc">
+            โรงแรมสุนัขระดับพรีเมียม ที่ดูแลน้องหมาของคุณเสมือนครอบครัว
+            พร้อมบริการครบวงจร ฝากเลี้ยง เดย์แคร์ และสปา
+          </p>
+          <div class="footer-social">
+            <a href="#" aria-label="Facebook">📘</a>
+            <a href="#" aria-label="Instagram">📸</a>
+            <a href="#" aria-label="LINE">💬</a>
+            <a href="#" aria-label="TikTok">🎵</a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>บริการ</h4>
+          <a href="#services">ห้องไม่ติดหน้าต่าง</a>
+          <a href="#services">ห้องติดหน้าต่าง</a>
+          <a href="#services">Day Care</a>
+          <a href="#services">Spa & Grooming</a>
+        </div>
+        <div class="footer-col">
+          <h4>เกี่ยวกับเรา</h4>
+          <a href="#">เรื่องราวของเรา</a>
+          <a href="#">ทีมงาน</a>
+          <a href="#">มาตรฐานความปลอดภัย</a>
+          <a href="#">คำถามที่พบบ่อย</a>
+        </div>
+        <div class="footer-col">
+          <h4>ติดต่อ</h4>
+          <a href="#">📍 กรุงเทพมหานคร</a>
+          <a href="#">📞 0XX-XXX-XXXX</a>
+          <a href="#">✉️ info@deedogland.com</a>
+          <a href="#">💬 LINE: @deedogland</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 Deedogland. All rights reserved. Made with 🐾 & ❤️</p>
+        <p>นโยบายความเป็นส่วนตัว | ข้อกำหนดการใช้งาน</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ═══ Back to Top ═══ -->
+  <button class="back-to-top" id="back-to-top" aria-label="กลับไปด้านบน">↑</button>
+
+  <!-- ═══ JavaScript ═══ -->
+  <script src="js/main.js"></script>
+</body>
+
+</html>
